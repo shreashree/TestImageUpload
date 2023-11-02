@@ -49,10 +49,11 @@ public class TestImage {
 		Thread.sleep(200);
 		Assert.assertTrue(elementIsVisible, "true");
 		System.out.println("is visible " + elementIsVisible);
+		Thread.sleep(1000);
 		
-//		page.close();
-//		br.close();
-//		pw.close();
+		page.close();
+		br.close();
+		pw.close();
 		
 	}
 
